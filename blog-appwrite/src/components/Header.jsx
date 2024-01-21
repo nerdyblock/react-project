@@ -1,4 +1,4 @@
-import {Container, Logo, LogoutBtn} from '../index'
+import {Container, Logo, LogoutBtn} from '../components'
 import { Link } from 'react-router-dom'
 import {useSelector} from 'react-redux'
 import { useNavigate } from 'react-router-dom'
@@ -64,7 +64,7 @@ export default function Header() {
             )}
           </ul>
         </nav>
-      </Container>
+        </Container>
     </header>
   )
 }
